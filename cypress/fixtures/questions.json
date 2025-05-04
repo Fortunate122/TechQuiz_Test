@@ -1,0 +1,42 @@
+[
+    { "question": "Is JavaScript single-threaded?", "answers": [
+      { "text": "True", "isCorrect": true },
+      { "text": "False", "isCorrect": false }
+    ]},
+    { "question": "Is React a framework?", "answers": [
+      { "text": "True", "isCorrect": false },
+      { "text": "False", "isCorrect": true }
+    ]},
+    { "question": "Does CSS stand for Cascading Style Sheets?", "answers": [
+      { "text": "True", "isCorrect": true },
+      { "text": "False", "isCorrect": false }
+    ]},
+    { "question": "Is MongoDB a relational database?", "answers": [
+      { "text": "True", "isCorrect": false },
+      { "text": "False", "isCorrect": true }
+    ]},
+    { "question": "Is Node.js built on the V8 engine?", "answers": [
+      { "text": "True", "isCorrect": true },
+      { "text": "False", "isCorrect": false }
+    ]},
+    { "question": "Is HTML a programming language?", "answers": [
+      { "text": "True", "isCorrect": false },
+      { "text": "False", "isCorrect": true }
+    ]},
+    { "question": "Can JavaScript run outside the browser?", "answers": [
+      { "text": "True", "isCorrect": true },
+      { "text": "False", "isCorrect": false }
+    ]},
+    { "question": "Is TypeScript a superset of JavaScript?", "answers": [
+      { "text": "True", "isCorrect": true },
+      { "text": "False", "isCorrect": false }
+    ]},
+    { "question": "Does Git use SHA-1 for commit hashes?", "answers": [
+      { "text": "True", "isCorrect": true },
+      { "text": "False", "isCorrect": false }
+    ]},
+    { "question": "Is JSON a markup language?", "answers": [
+      { "text": "True", "isCorrect": false },
+      { "text": "False", "isCorrect": true }
+    ]}
+  ]
