@@ -8,13 +8,17 @@
     "noEmit": true,
     "composite": true,
     "jsx": "react-jsx",
-    "strict": true
+    "strict": true,
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": [
     "**/*.tsx",
     "**/*.ts",
     "**/*.js",
     "**/*.jsx",
+    "../cypress/fixtures/**/*.d.ts",
     "../client/src/components/**/*.tsx" // Include Quiz.tsx and other components
   ]
 }

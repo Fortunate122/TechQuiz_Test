@@ -9,10 +9,13 @@ export default defineConfig({
       viteConfig: customViteConfig,
     },
     specPattern: "cypress/component/**/*.cy.{js,ts,jsx,tsx}",
+    supportFile: false
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:3001',
+    supportFile: false,
+    experimentalFetchPolyfill: true, 
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

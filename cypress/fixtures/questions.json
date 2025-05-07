@@ -1,42 +1,42 @@
 [
-    { "question": "Is JavaScript single-threaded?", "answers": [
-      { "text": "True", "isCorrect": true },
-      { "text": "False", "isCorrect": false }
-    ]},
-    { "question": "Is React a framework?", "answers": [
-      { "text": "True", "isCorrect": false },
-      { "text": "False", "isCorrect": true }
-    ]},
-    { "question": "Does CSS stand for Cascading Style Sheets?", "answers": [
-      { "text": "True", "isCorrect": true },
-      { "text": "False", "isCorrect": false }
-    ]},
-    { "question": "Is MongoDB a relational database?", "answers": [
-      { "text": "True", "isCorrect": false },
-      { "text": "False", "isCorrect": true }
-    ]},
-    { "question": "Is Node.js built on the V8 engine?", "answers": [
-      { "text": "True", "isCorrect": true },
-      { "text": "False", "isCorrect": false }
-    ]},
-    { "question": "Is HTML a programming language?", "answers": [
-      { "text": "True", "isCorrect": false },
-      { "text": "False", "isCorrect": true }
-    ]},
-    { "question": "Can JavaScript run outside the browser?", "answers": [
-      { "text": "True", "isCorrect": true },
-      { "text": "False", "isCorrect": false }
-    ]},
-    { "question": "Is TypeScript a superset of JavaScript?", "answers": [
-      { "text": "True", "isCorrect": true },
-      { "text": "False", "isCorrect": false }
-    ]},
-    { "question": "Does Git use SHA-1 for commit hashes?", "answers": [
-      { "text": "True", "isCorrect": true },
-      { "text": "False", "isCorrect": false }
-    ]},
-    { "question": "Is JSON a markup language?", "answers": [
-      { "text": "True", "isCorrect": false },
-      { "text": "False", "isCorrect": true }
-    ]}
-  ]
+  {
+    "question": { "question": "1 + 1 = 2?" },
+    "correct_answer": "True"
+  },
+  {
+    "question": { "question": "Is React a framework?" },
+    "correct_answer": "False"
+  },
+  {
+    "question": { "question": "CSS stands for Cascading Style Sheets?" },
+    "correct_answer": "True"
+  },
+  {
+    "question": { "question": "Is null == undefined?" },
+    "correct_answer": "True"
+  },
+  {
+    "question": { "question": "Does JavaScript support multiple inheritance?" },
+    "correct_answer": "False"
+  },
+  {
+    "question": { "question": "Is 0 falsy in JavaScript?" },
+    "correct_answer": "True"
+  },
+  {
+    "question": { "question": "Python uses curly braces for blocks?" },
+    "correct_answer": "False"
+  },
+  {
+    "question": { "question": "HTML is a programming language?" },
+    "correct_answer": "False"
+  },
+  {
+    "question": { "question": "JSX is a syntax extension for JavaScript?" },
+    "correct_answer": "True"
+  },
+  {
+    "question": { "question": "Does Node.js run in the browser?" },
+    "correct_answer": "False"
+  }
+]
