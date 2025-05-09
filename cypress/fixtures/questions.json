@@ -1,42 +1,82 @@
 [
   {
-    "question": { "question": "1 + 1 = 2?" },
-    "correct_answer": "True"
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "answers": [
+      { "text": "Paris", "isCorrect": true },
+      { "text": "London", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "Is React a framework?" },
-    "correct_answer": "False"
+    "question": "What does HTML stand for?",
+    "correct_answer": "HyperText Markup Language",
+    "answers": [
+      { "text": "HyperText Markup Language", "isCorrect": true },
+      { "text": "Home Tool Markup Language", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "CSS stands for Cascading Style Sheets?" },
-    "correct_answer": "True"
+    "question": "Which company developed the React library?",
+    "correct_answer": "Facebook",
+    "answers": [
+      { "text": "Facebook", "isCorrect": true },
+      { "text": "Google", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "Is null == undefined?" },
-    "correct_answer": "True"
+    "question": "What is the output of 2 + '2' in JavaScript?",
+    "correct_answer": "22",
+    "answers": [
+      { "text": "22", "isCorrect": true },
+      { "text": "4", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "Does JavaScript support multiple inheritance?" },
-    "correct_answer": "False"
+    "question": "Which method converts JSON to a JavaScript object?",
+    "correct_answer": "JSON.parse()",
+    "answers": [
+      { "text": "JSON.parse()", "isCorrect": true },
+      { "text": "JSON.stringify()", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "Is 0 falsy in JavaScript?" },
-    "correct_answer": "True"
+    "question": "What is the default port for a React dev server?",
+    "correct_answer": "3000",
+    "answers": [
+      { "text": "3000", "isCorrect": true },
+      { "text": "8080", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "Python uses curly braces for blocks?" },
-    "correct_answer": "False"
+    "question": "What does CSS stand for?",
+    "correct_answer": "Cascading Style Sheets",
+    "answers": [
+      { "text": "Cascading Style Sheets", "isCorrect": true },
+      { "text": "Colorful Style Sheets", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "HTML is a programming language?" },
-    "correct_answer": "False"
+    "question": "What symbol is used for comments in JavaScript?",
+    "correct_answer": "//",
+    "answers": [
+      { "text": "//", "isCorrect": true },
+      { "text": "/* */", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "JSX is a syntax extension for JavaScript?" },
-    "correct_answer": "True"
+    "question": "Which command initializes a new Node.js project?",
+    "correct_answer": "npm init",
+    "answers": [
+      { "text": "npm init", "isCorrect": true },
+      { "text": "node init", "isCorrect": false }
+    ]
   },
   {
-    "question": { "question": "Does Node.js run in the browser?" },
-    "correct_answer": "False"
+    "question": "Which array method adds an item to the end of an array?",
+    "correct_answer": "push",
+    "answers": [
+      { "text": "push", "isCorrect": true },
+      { "text": "pop", "isCorrect": false }
+    ]
   }
 ]

@@ -4,21 +4,21 @@
     "target": "ES2020",
     "lib": ["ES2020", "DOM"],
     "types": ["cypress", "node", "@testing-library/cypress"],
-    "isolatedModules": false,
-    "noEmit": true,
-    "composite": true,
     "jsx": "react-jsx",
     "strict": true,
     "checkJs": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "noEmit": true,
+    "isolatedModules": false,
+    "composite": true
   },
   "include": [
-    "**/*.tsx",
     "**/*.ts",
+    "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
-    "../cypress/fixtures/**/*.d.ts",
-    "../client/src/components/**/*.tsx" // Include Quiz.tsx and other components
+    "fixtures/**/*.d.ts",
+    "../client/src/components/**/*.tsx"
   ]
 }

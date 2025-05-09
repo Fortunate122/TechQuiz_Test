@@ -1,21 +1,22 @@
-import questions from '../fixtures/questions.json';
+import questionsData from '../fixtures/questions.json';
 
 describe('Tech Quiz E2E', () => {
   it('completes the quiz and shows score', () => {
-    // ✅ Wrap in { questions } to match app expectations
     cy.intercept('GET', '**/api/questions/random', {
       statusCode: 200,
-      body: { questions },
+      body: questionsData,
     }).as('getQuestions');
 
     cy.visit('/');
     cy.contains('Start Quiz').click();
+
     cy.wait('@getQuestions');
 
     for (let i = 0; i < 10; i++) {
-      cy.contains(/^(True|False)$/).should('be.visible').click();
+      cy.get('.btn.btn-primary').first().click();
       cy.wait(300);
-    }
+}
+
 
     cy.get('body').then(($body) => {
       const text = $body.text();
@@ -24,7 +25,10 @@ describe('Tech Quiz E2E', () => {
     });
 
     cy.contains(/(You scored|correct|out of|Your score)/i, { timeout: 10000 }).should('exist');
-    cy.contains('Start Quiz').should('exist');
+    cy.wait(200); // Give time to fully render button
+    cy.contains(/Start Quiz|Take New Quiz/, { timeout: 5000 }).should('exist');
+
+
   });
 });
 

@@ -7,12 +7,15 @@ import questionsData from '../fixtures/questions.json';
  */
 
 /** @type {Question[]} */
-const questions = questionsData;
+const questions = questionsData.map((q) => ({
+  question: { question: q.question },
+  correct_answer: q.correct_answer,
+  answers: q.answers,
+}));
 
 describe('Quiz Component', () => {
   beforeEach(() => {
-    // ✅ Wrap in { questions } to match app expectations
-    cy.intercept('GET', '/api/questions/random', { questions }).as('getQuestions');
+    cy.intercept('GET', '/api/questions/random', questions).as('getQuestions');
   });
 
   it('starts the quiz and displays the first question', () => {
@@ -23,6 +26,9 @@ describe('Quiz Component', () => {
     cy.contains(questions[0].question.question).should('exist');
   });
 });
+
+
+
 
 
 
